@@ -1,0 +1,16 @@
+# Uploads directory
+uploads
+
+# Development
+node_modules
+Gruntfile.js
+package.json
+package-lock.json
+.sass-cache*
+wpcs
+composer.json
+composer.lock
+vendor
+
+# macOS Files
+.DS_Store
