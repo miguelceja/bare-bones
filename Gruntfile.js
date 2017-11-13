@@ -9,14 +9,14 @@ module.exports = function(grunt) {
         options: {
           livereload: true,
         },
-        files: ['css/scss/*.scss', 'js/*.js', '*.html', '*.php'],
+        files: [ 'themes/bare-bones/css/scss/*.scss', 'themes/bare-bones/js/*.js', 'themes/bare-bones/*.php'],
         tasks: ['sass', 'postcss', 'concat', 'babel']
       },
 
       concat: {
         dist: {
-          src: ['js/_*.js'],
-          dest: 'js/app.js'
+          src: ['themes/bare-bones/js/_*.js'],
+          dest: 'themes/bare-bones/js/app.js'
         }
       },
 
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         },
         dist: {
           files: {
-            'js/build/app.min.js': 'js/app.js'
+            'themes/bare-bones/js/build/app.min.js': 'themes/bare-bones/js/app.js'
           }
         }
       },
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             style: 'compressed'
           },
           files: {
-            'css/build/main.css': 'css/*.scss'
+            'themes/bare-bones/css/build/main.css': 'themes/bare-bones/css/*.scss'
           }
         }
       },
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
             ]
         },
         dist: {
-            src: 'css/build/main.css'
+            src: 'themes/bare-bones/css/build/main.css'
         }
       }
     });

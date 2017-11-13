@@ -5,9 +5,11 @@ Simple semi-blank starter WordPress theme with [Grunt](https://gruntjs.com/).  `
 
 ## Instructions
 
-Clone this repo into your local `wp-content/themes` folder.
+Clone this repo into your Wordpress root folder on your local dev.  Change the folder name from `bare-bones` to `wp-content`.
 
-Change directories to the `bare-bones` theme folder, then run `npm install`.
+Change directories to the `wp-content`, then run `npm install`.
+
+If you want to change the name of the theme from `bare-bones` to something else, just make sure to do a find and replace in of the new name in Grunt.js (so all the file paths get updated).  And of course, change the name in `style.css` so the new name is reflected in the WP admin.
 
 Then just run `grunt watch` and start coding.
 
