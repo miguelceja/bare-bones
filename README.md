@@ -1,6 +1,6 @@
 # Bare Bones WordPress Theme with Grunt
 
-Simple blank started WordPress theme with [Grunt](https://gruntjs.com/).  `Grunt.js` comes configured with [Sass](https://github.com/gruntjs/grunt-contrib-sass), [PostCSS](https://github.com/nDmitry/grunt-postcss), [Concat](https://github.com/gruntjs/grunt-contrib-concat), and [Babel](https://babeljs.io/).
+Simple semi-blank starter WordPress theme with [Grunt](https://gruntjs.com/).  `Grunt.js` comes configured with [Sass](https://github.com/gruntjs/grunt-contrib-sass), [PostCSS](https://github.com/nDmitry/grunt-postcss), [Concat](https://github.com/gruntjs/grunt-contrib-concat), and [Babel](https://babeljs.io/).
 
 
 ## Instructions
