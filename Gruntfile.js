@@ -20,18 +20,6 @@ module.exports = function(grunt) {
         }
       },
 
-      // babel: {
-      //   options: {
-      //     sourceMap: true,
-      //     presets: ['env', 'es2015']
-      //   },
-      //   dist: {
-      //     files: {
-      //       'js/build/app.js': 'js/app.js'
-      //     }
-      //   }
-      // },
-
       babel: {
         options: {
           sourceMap: true,
@@ -76,5 +64,4 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['watch']);
-
   };
