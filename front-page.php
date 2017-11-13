@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template for the homepage.
+ *
+ * @package BareBones
+ * @author  Miguel Ceja <https://miguelceja.com>
+ * @link    https://codex.wordpress.org/Template_Hierarchy
+ */
+
+get_header(); ?>
 
 	<p>This is the front-page.php</p>
 
@@ -7,11 +16,10 @@
 			<h2><?php the_title(); ?></h2>
 			<?php the_content(); ?>
 
-		<?php endwhile; else: ?>
+		<?php endwhile; else : ?>
 
 			<p>There are no posts or pages here.</p>
 
 		<?php endif; ?>
 
 <?php get_footer(); ?>
-
