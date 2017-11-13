@@ -22,7 +22,11 @@ add_action( 'wp_enqueue_scripts', 'bb_theme_styles' );
  * Load the theme JS.
  */
 function bb_theme_js() {
-	wp_register_script( 'bb_theme_js', get_template_directory_uri() . '/js/build/app.js', array( 'jquery'), '', true );
+
+	wp_register_script( 'bb_live_reload', 'http://localhost:35729/livereload.js', '', '', true );
+	wp_register_script( 'bb_theme_js', get_template_directory_uri() . '/js/build/app.min.js', array( 'jquery'), '', true );
+
+	wp_enqueue_script( 'bb_live_reload' );
 	wp_enqueue_script( 'bb_theme_js' );
 }
 

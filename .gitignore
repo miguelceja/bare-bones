@@ -3,8 +3,6 @@ uploads
 
 # Development
 node_modules
-Gruntfile.js
-package.json
 package-lock.json
 .sass-cache*
 wpcs
