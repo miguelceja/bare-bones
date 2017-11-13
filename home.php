@@ -19,9 +19,7 @@ get_header();
 		<?php get_template_part( 'content', 'post' ); ?>
 
 		<?php endwhile; else : ?>
-
 			<p>There are no posts or pages here.</p>
-
 		<?php endif; ?>
 
 	</div>
