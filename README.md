@@ -27,4 +27,4 @@ This theme includes the [Fieldmanager](http://fieldmanager.org/) plugin to creat
 
 - Register your new post type in `lib/post-types.php` inside the `bb_register_post_types` function.  See "Project Cards" example.
 - Create a new PHP file in `lib/` and prefix it with "content-", so something like `content-postname.php`, and link the file in `lib/fields.php`.  Doesn't have to be prefixed, but it'll help you stay organized.
-- Refer to the [Fieldmanager](http://fieldmanager.org/) docs on how to create new fields in your new `content-postname.php`.
+- Refer to the [Fieldmanager](http://fieldmanager.org/) docs on how to create fields in your new `content-postname.php`, but I included some common ones.
