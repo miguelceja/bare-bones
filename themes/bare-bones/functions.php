@@ -33,6 +33,11 @@ function bb_theme_js() {
 add_action( 'wp_enqueue_scripts', 'bb_theme_js' );
 
 /**
+ * Load our post meta / FieldManager items.
+ */
+require get_template_directory() . '/lib/fields.php';
+
+/**
  * Add custom menu spport.
  */
 add_theme_support( 'menus' );
