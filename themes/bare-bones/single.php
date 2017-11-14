@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Single post template
+ *
+ * @package BareBones
+ * @author  Miguel Ceja <https://miguelceja.com>
+ * @link    https://codex.wordpress.org/Template_Hierarchy
+ */
+
+get_header(); ?>
 
 	<div>
 
